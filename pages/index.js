@@ -47,8 +47,6 @@ export async function getStaticProps() {
 
   return {
     props: {
-      formatStyle,
-      intervalSecond,
       createdAt,
       nextCreatedAt,
     },
